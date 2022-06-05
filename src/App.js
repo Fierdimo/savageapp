@@ -20,6 +20,7 @@ import './Utils/data_transfer'
 import dataTransfer from "./Utils/data_transfer";
 
 
+
 export default function App() {
   const backgroundHome = "/images/background.jpg";
   const navigate = useNavigate();
