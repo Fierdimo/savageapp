@@ -88,6 +88,7 @@ export default function AdminPanel({
         setDialogMenuData({ ...employees[0], open: false, alert:false })
         break;
       case 2:
+        if (orders)
         setDialogMenuData({ ...orders[0], open: false, alert:false })
         break;
       default:

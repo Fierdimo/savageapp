@@ -38,7 +38,7 @@ export default function products({ backgroundHeight, dialogMenuData, setDialogMe
                                 <TableCell align="right"><Rating name="read-only" value={row.rating} readOnly size="small" /></TableCell>
                             </TableRow>
                         ))
-                    :<TableRow><TableCell>Nada para mostrar</TableCell></TableRow>}
+                    :<TableRow><TableCell>En espera de ordenes...</TableCell></TableRow>}
                     </TableBody>
                 </Table>
             </TableContainer>
