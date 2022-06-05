@@ -1,4 +1,4 @@
-import { Box, FormControl, Grow, InputLabel, OutlinedInput } from "@mui/material";
+import { Box, FormControl, InputLabel, OutlinedInput } from "@mui/material";
 import { configData } from "./configData";
 
 export default function DataFields({ actualStep, userData, setUserData }) {

@@ -1,4 +1,4 @@
-import { Close, DataObjectSharp } from "@mui/icons-material"
+import { Close } from "@mui/icons-material"
 import { Avatar, Card, CardContent, CardHeader, IconButton, List, ListItem, ListItemAvatar, ListItemText, Paper, Typography } from "@mui/material"
 
 function factura({ dialogMenuData, setDialogMenuData, productos }) {
@@ -14,7 +14,7 @@ function factura({ dialogMenuData, setDialogMenuData, productos }) {
                 <CardContent>
                     <List>
                         {dialogMenuData.order.order_list.map(order => {
-                            let product = productos.filter(prod => prod.id == Object.keys(order)[0])
+                            let product = productos.filter(prod => prod.id === Object.keys(order)[0])
                             return (
                                 <ListItem key={Object.keys(order)[0]} secondaryAction={`x ${order[Object.keys(order)[0]]}`}>
                                     

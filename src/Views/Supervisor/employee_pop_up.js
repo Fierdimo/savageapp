@@ -1,5 +1,5 @@
-import { Image, Lock, LockOpen, Save, ViewStreamOutlined, VisibilityOffTwoTone, VisibilityTwoTone } from "@mui/icons-material";
-import { Box, Button, Card, CardMedia, Grid, IconButton, MenuItem, Select, TextField, Tooltip } from "@mui/material";
+import { Image, LockOpen, Save, VisibilityOffTwoTone, VisibilityTwoTone } from "@mui/icons-material";
+import { Box, Card, CardMedia, Grid, IconButton, MenuItem, Select, TextField, Tooltip } from "@mui/material";
 import { styled } from '@mui/material/styles';
 
 import handleSubmit from "./SubmitEmployee";

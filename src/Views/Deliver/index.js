@@ -1,5 +1,5 @@
-import { Article, ExpandMore, PictureAsPdfOutlined, ThumbDownAltTwoTone, ThumbUpAltTwoTone, ToggleOffTwoTone, ToggleOnTwoTone, VisibilityOffTwoTone, VisibilityTwoTone } from '@mui/icons-material'
-import { Accordion, AccordionDetails, AccordionSummary, Box, Dialog, FormControl, Grid, IconButton, InputLabel, MenuItem, OutlinedInput, Paper, Rating, Select, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tooltip } from '@mui/material'
+import { Article, ThumbDownAltTwoTone, ThumbUpAltTwoTone, ToggleOffTwoTone, ToggleOnTwoTone } from '@mui/icons-material'
+import { Dialog, Grid, IconButton, Paper, Rating, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tooltip } from '@mui/material'
 import { useEffect, useState } from 'react'
 import dataTransfer from '../../Utils/data_transfer'
 import Factura from './factura'

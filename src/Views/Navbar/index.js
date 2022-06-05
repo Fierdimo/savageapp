@@ -71,10 +71,12 @@ export default function Navbar({ navigate, userData, setUserData, addToChart }) 
     let grupo = userData ? userData.group : '0'
     return (settings.map(setting => {
       if (setting.permission.includes(grupo)) {
-        return <MenuItem key={setting.label} onClick={() => handleCloseUserMenu(setting)}>
-          {setting.label}
-        </MenuItem>
+        return (
+          <MenuItem key={setting.label} onClick={() => handleCloseUserMenu(setting)}>
+            {setting.label}
+          </MenuItem>)
       }
+      return <Box key={setting.label}></Box>
     }))
 
   }

@@ -46,6 +46,7 @@ export default function Inicio({
   }
   useEffect(()=>{
     setDialogMenuData({open:false})
+    // eslint-disable-next-line
   },[])
 
   return (

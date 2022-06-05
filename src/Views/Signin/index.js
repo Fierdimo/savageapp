@@ -8,7 +8,6 @@ import {
   Button,
   IconButton,
   Avatar,
-  Box,
 } from "@mui/material";
 import { Close } from "@mui/icons-material";
 

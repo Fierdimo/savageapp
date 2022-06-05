@@ -1,4 +1,4 @@
-import { Close, DataObjectSharp } from "@mui/icons-material"
+import { Close } from "@mui/icons-material"
 import { Avatar, Card, CardContent, CardHeader, IconButton, List, ListItem, ListItemAvatar, ListItemText, Paper, Typography } from "@mui/material"
 
 function factura({ dialogMenuData, setDialogMenuData, productos }) {
