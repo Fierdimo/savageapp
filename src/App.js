@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-restricted-globals */
+import { ThemeProvider } from "@emotion/react";
+import { Box, CssBaseline } from "@mui/material";
+import Inicio from "./inicio";
+import { theme } from "./Theme";
+
 
 function App() {
+  const backgroundHeight = screen.height
+  const backgroundHome = "/images/background.jpg";
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >TEST 
-          
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+
+      <Box
+        style={{
+          backgroundImage: `url(${backgroundHome})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          overflow: "hidden",
+        }}
+      >
+           <Inicio backgroundHeight={backgroundHeight}/>
+      </Box>
+    </ThemeProvider>
+
   );
 }
 
